@@ -17,3 +17,12 @@ are computed. The issue I ran into upon first submission was that the value
 was too large. I tried to figure out why and realized it was because the 
 recursive function would stop when any one of the elements met the conditional
 I set, not when they all met the conditional. 
+I opted instead to use a rather klunky for/while loop combination, to ensure
+that the update was done to each individual cell, rather than all at once.
+1. There is a significant difference between data frames and lists, and I 
+definitely have a lot still to learn about them
+2. You need to be a lot more careful with your conditional statements in a
+recursive function if working with vectors
+3. How to write a function in R
+4. What the Reduce function is
+5. How to index into a list and data frame
