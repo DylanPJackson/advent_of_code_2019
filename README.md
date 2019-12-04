@@ -15,3 +15,10 @@ the first two days are not that difficult, and I do have a couple years of
 programming experience already. So hopefully, I'll be able to learn R at a
 quick enough pace to keep up with the diffferent concepts presented in each
 day's puzzle. 
+
+Since this is my first time working with the language and I am starting from
+behind, these solutions will probably not be elegant / efficient by any means.
+What I do to solve each problem is that I use the R interpreter to mess around
+with new ideas and get comfortable with new features of R. Once I find
+something that works, I'll copy over my solution to a .R file and document it
+so that I can share it here.
