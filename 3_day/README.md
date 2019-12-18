@@ -23,4 +23,7 @@ only result in O(n) complexity, it still seemed way too exhaustive and I was
 sure I could implement something that did not have to check every single cell
 of the two wires. 
 
-###### Less Naive
+###### Less Naive, but probably more complicated
+So, I thought I had something that would work, but it might just be an 
+overcomplication of an originally simple problem. I'll document it later, 
+going to work on another project.
