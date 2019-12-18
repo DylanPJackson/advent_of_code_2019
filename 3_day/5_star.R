@@ -61,3 +61,25 @@ detect_intersect <- function(og_1, new_1, og_2, new_2, dist){
         return(0)
     }
 }
+
+process_wires <- function(input){
+    wire_1 <- c(0,0)
+    wire_2 <- c(0,0)
+    size_input <- length(input)
+    closest <- 100000
+
+    for(i in 0:(size_input - 1)){
+        new_1 <- update_wire(wire_1, input[[1,i+1]])
+        new_2 <- update_wire(wire_2, input[[2,i+1]])
+        new_close <- detect_intersect(wire_1, new_1, wire_2, new_2, closest)
+        if(new_close){
+            closest <- new_close
+        }
+        wire_1 <- new_1
+        wire_2 <- new_2
+    }
+
+    return(closest)
+}
+
+process_wires(input)
