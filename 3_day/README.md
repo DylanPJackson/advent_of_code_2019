@@ -1,8 +1,11 @@
 # What I Learned from Star 5
 1. Strings in R are weird. Or at least turning your vectors into strings is a 
 little awkward.
+2. I still don't entirely understand how lists are structured and how you
+index into them.
 
 ## My Approach
+###### Naive
 My first thought was a very naive approach just so I could get something down
 on paper that worked. This was to initialize two tuples which would hold the 
 coordinates of each of the two wires. They would start at (0,0), which I 
@@ -19,3 +22,5 @@ comparison for every single cell that the two wires occupy. While this would
 only result in O(n) complexity, it still seemed way too exhaustive and I was
 sure I could implement something that did not have to check every single cell
 of the two wires. 
+
+###### Less Naive
